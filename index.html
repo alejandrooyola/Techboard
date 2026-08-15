@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechBoard - Panel de Control</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <header>
         <h1>TechBoard</h1>
         <p>Gestion Operativa de Proyectos</p>
     </header>
-    <main>
-        <section id="tareas">
-            <h2>Control operativo - TechBoard</h2>
+    <main class="contenedor">
+        <section id="modulo-tareas">
+            <h2>Pnel de Control operativo</h2>
             <p>Estado del sistema: en Desarrollo</p>
+
+            <form id="formulario-tareas">
+                <input type="text" id="input-tarea" placeholder="Escribe una nueva tarea..." required>
+                <button type="submit">Agregar Tarea</button> 
+            </form>
+            <ul id="lista-tareas"></ul>
+                <!-- Las tareas se agregarán aquí dinámicamente -->
         </section>
     </main>
     <footer>
         <p>&copy;2026 TechBoard - todos los derechos reservados</p>
     </footer>
+    <script src="javascript.js"></script>
     
 </body>
 </html>

@@ -1,0 +1,25 @@
+{
+  "name": "techboard",
+  "version": "1.0.0",
+  "description": "Bienvenido a Techboard. Este proyecto es mi Trabajo Practico Integrador para la carrera de Desarrollo de Software",
+  "main": "javascript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandrooyola/techboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alejandrooyola/techboard/issues"
+  },
+  "homepage": "https://github.com/alejandrooyola/techboard#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "pg": "^8.23.0"
+  }
+}

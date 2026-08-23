@@ -65,3 +65,8 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+/*ESTADO PARA TAREA COMPLETADA*/
+.completada {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
